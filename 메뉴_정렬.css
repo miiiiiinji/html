@@ -1,0 +1,97 @@
+header {
+    display: flex ; 
+    justify-content: space-between ;
+    align-items: center ;
+}
+
+body {
+    background-color: #EDE9E3;
+}
+
+
+#go { 
+    padding: 6px ; margin: 0 auto ;
+    background: #CDC6C3 ; 
+}
+
+a.menu { color: black ; 
+    text-decoration: none ; padding: 5px 10px ; margin-left: 20px ;
+    display : inline ;
+} 
+    
+a.menu:hover {
+    background : #A38F85 ; color : white ;
+    font-weight: bold ;
+}
+
+.container {
+    display : flex ;
+}
+
+#hobby, #dream {
+    display : inline-block ;
+    width : 300px ; margin-right : 20px ; padding: 0px 20px 20px 20px ;
+    background-color : #CDC6C3 ;
+    border-radius: 20px ;
+}
+
+#timetable{
+    background-color : #E7D7C9;
+    border-collapse : collapse ; 
+}
+
+td.time {
+    background : #D4B2A7 
+}
+
+td.time:hover {
+    background : #A38F85 ; color : white ;
+}
+
+td, th {
+    border : 1.5px solid black
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: lavender ;
+}
+
+.submenu-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    left: -160px ;
+    top: 0;
+    z-index: 1;
+}
+
+.submenu:hover .submenu-content {
+    display: block; 
+}
